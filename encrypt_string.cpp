@@ -1,3 +1,14 @@
+/*
+   
+   It should be encoded in two steps as follows:
+
+1) Swap the first and second character of the string SS, then swap the 3rd and 4th character, then the 5th and 6th character and so on. 
+   If the length of SS is odd, the last character should not be swapped with any other.
+2) Replace each occurrence of the letter 'a' in the message obtained after the first step by the letter 'z', 
+   each occurrence of 'b' by 'y', each occurrence of 'c' by 'x', etc, and each occurrence of 'z' in the message obtained after the first step by 'a'.
+   
+ */
+
 #include <iostream>
 using namespace std;
 
