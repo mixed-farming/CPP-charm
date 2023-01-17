@@ -8,8 +8,8 @@ int curr_max = a[0];
 
 for (int i = 1; i < size; i++)
 {
-		curr_max = max(a[i], curr_max+a[i]);
-		max_so_far = max(max_so_far, curr_max);
+		curr_max = max(a[i], curr_max+a[i]);//take max contiguous summations and hold temporary maximums found along
+		max_so_far = max(max_so_far, curr_max);//taking the maximum of the maximums found along
 }
 return max_so_far;
 }
