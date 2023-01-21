@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int search(int a[],int n, int k)
+int search_linear(int a[],int n, int k)
 {
     for(int i=0;i<n;i++)
     {
@@ -26,7 +26,7 @@ int main()
     int k;
     cout << "Enter key element : ";
     cin >> k;
-    int result=search(a,n,k);
+    int result=search_linear(a,n,k);
     (result==-1)?cout << "Element not found.\n" :cout << "Element present at position " << result << ".\n";
     return 0;
 }
