@@ -36,3 +36,10 @@ int main()
     (result==-1)?cout << "Element not found.\n" :cout << "Element present at position " << result << ".\n";
     return 0;
 }
+
+/*
+NOTE :
+In an array with 'n' elements,
+Maximum number of searches for an element in binary search = ceil(log2(n+1))
+Provided the element exists in the array and is found on the last possible search.
+*/
